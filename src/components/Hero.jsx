@@ -46,7 +46,11 @@ export function Hero() {
             </a>
           </motion.div>
         </div>
-        <motion.div variants={item} className="glass-panel p-4">
+        <motion.div
+  variants={item}
+  className="glass-panel p-4"
+  style={{ willChange: "transform, opacity" }}
+>
           <img
             src={profileImage}
             alt="Lind Geci portrait"

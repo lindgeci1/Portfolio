@@ -14,7 +14,7 @@ body {
 }
 
 .glass-panel {
-  @apply rounded-3xl border border-white/10 bg-white/10 backdrop-blur-2xl shadow-glass;
+  @apply rounded-3xl border border-white/10 bg-white/10 backdrop-blur-lg shadow-glass;
 }
 
 .btn-primary {
