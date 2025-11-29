@@ -4,7 +4,7 @@ const ThemeContext = createContext({ theme: 'dark', toggleTheme: () => {} })
 
 const STORAGE_KEY = 'lindgeci-theme'
 
-export function ThemeProvider({ children }) {
+export function 
   const [theme, setTheme] = useState(() => {
     if (typeof window === 'undefined') return 'dark'
     const stored = window.localStorage.getItem(STORAGE_KEY)
