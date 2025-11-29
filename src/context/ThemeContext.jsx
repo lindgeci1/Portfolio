@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext({ theme: "dark", toggleTheme: () => {} });
 
-const STORAGE_KEY = "Lind-theme";
+const STORAGE_KEY = "LindGeci-theme";
 
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(() => {
