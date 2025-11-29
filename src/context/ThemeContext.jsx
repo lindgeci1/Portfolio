@@ -2,7 +2,11 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 const ThemeContext = createContext({ theme: "dark", toggleTheme: () => {} });
 
-const STORAGE_KEY = "LirGeci-theme";
+<<<<<<< HEAD
+const STORAGE_KEY = "LiriGeci-theme";
+=======
+const STORAGE_KEY = "LindGeci-theme";
+>>>>>>> 0295ff0b4da6868c7d419b5401224133ec970301
 
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(() => {
